@@ -1,0 +1,6 @@
+{
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Dark+",
+    "python.REPL.enableREPLSmartSend": false
+}
