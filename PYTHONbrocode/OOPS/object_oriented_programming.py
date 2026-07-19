@@ -6,14 +6,18 @@
 # class = (blueprint) used to design the structire and layout of an object
 
 class car:
-    def __init__(self):   # we need this method in order to create an object
+    def __init__(self):  # CONSTRUCTOR :  we need this method in order to create an object
         pass
 
 
 class car:
     def __init__(self,model,year,color,for_sale):
-        self.model = model
-        self.year = year                         #These are some attributes associated with the car
+
+# [NOTE] #just imagine self as the instance variables we made (here car1,2) as car1 and car2 will call this constructor and use the attributes we specify with self.____
+        
+        
+        self.model = model 
+        self.year = year                                   #These are some attributes associated with the car
         self.color = color 
         self.for_sale  = for_sale #boolean
 
